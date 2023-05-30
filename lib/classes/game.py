@@ -17,6 +17,7 @@ class Game:
         
     def results(self, new_result=None):
         from classes.result import Result
+        # forgot to add new_result
         if new_result and isinstance(new_result, Result):
             self._results.append(new_result)
         return self._results
